@@ -1,0 +1,25 @@
+.contact {
+  display: flex;
+  line-height: 64px;
+  font-size: 1.5em;
+  border-bottom: 1px solid blue;
+}
+
+.contact:last-child {
+  border: none;
+}
+
+.contact-name,
+.contact-address {
+  margin: 0 10px;
+}
+
+.contact-name {
+  font-size: 1em;
+  flex-grow: 1;
+  order: 1;
+}
+
+.contact-address {
+  order: 2;
+}
